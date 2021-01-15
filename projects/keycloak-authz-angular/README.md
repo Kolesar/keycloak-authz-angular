@@ -21,7 +21,7 @@
 
 ## About
 
-This library adds Keycloak fine-grained authorization policies (https://www.keycloak.org/docs/6.0/authorization_services/) to the great keycloak-angular library by Mauricio Vigolo (https://github.com/mauriciovigolo/keycloak-angular)
+This library adds Keycloak fine-grained authorization policies (https://www.keycloak.org/docs/latest/authorization_services/) to the great keycloak-angular library by Mauricio Vigolo (https://github.com/mauriciovigolo/keycloak-angular)
 It provides the following features
 
 - A **Keycloak Authorization Service** which uses the Keycloak API to get entitlements/permissions for the logged-in user
