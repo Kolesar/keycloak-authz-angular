@@ -1,6 +1,4 @@
 export interface KeycloakAuthorizationRequestMetaData {
-    
-    
     /**
      * A boolean value indicating to the server if resource names should be included in the RPT’s permissions.
      * If false, only the resource identifier is included.
@@ -29,13 +27,13 @@ export interface ResourcePermission {
 
 
 export interface KeycloakAuthorizationRequest {
-    
+
     /**
      * An array of objects representing the resource and scopes.
      */
     permissions?:ResourcePermission[];
 
-    
+
     claimToken?:string;
 
     claimTokenFormat?:string;
@@ -43,6 +41,6 @@ export interface KeycloakAuthorizationRequest {
     /**
      * Defines additional information about this authorization request in order to specify how it should be processed
      * by the server.
-     */    
+     */
     metadata?:KeycloakAuthorizationRequestMetaData;
 }

@@ -1,5 +1,4 @@
 export interface KeycloakResourcePermission {
-    
     /**
      * The id of a resource.
      */
@@ -7,18 +6,16 @@ export interface KeycloakResourcePermission {
 
     /**
      * The name of a resource.
-     */    
+     */
     rsname?:string;
 
     /**
      * An array of strings where each value is the name of a scope associated with the resource.
      */
-    scopes?:string[];    
-    
+    scopes?:string[];
 }
 
 export interface KeycloakResourcePermissionsCheck {
-    
     /**
      * The name of a resource to check permissions against.
      */
@@ -27,6 +24,5 @@ export interface KeycloakResourcePermissionsCheck {
     /**
      * Then name of a scope associated with the resource.
      */
-    scope?:string;    
-    
+    scope?:string;
 }

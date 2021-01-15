@@ -6,7 +6,7 @@ describe('KeycloakAuthorizationService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: KeycloakAuthorizationService = TestBed.get(KeycloakAuthorizationService);
+    const service: KeycloakAuthorizationService = TestBed.inject(KeycloakAuthorizationService);
     expect(service).toBeTruthy();
   });
 });

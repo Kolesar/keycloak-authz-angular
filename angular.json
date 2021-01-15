@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Keycloak-authz-angular": {
+    "keycloak-authz-angular": {
       "root": "projects/keycloak-authz-angular",
       "sourceRoot": "projects/keycloak-authz-angular/src",
       "projectType": "library",
@@ -17,7 +17,7 @@
           },
           "configurations": {
             "production": {
-              "project": "projects/keycloak-angular/ng-package.prod.json"
+              "project": "projects/keycloak-authz-angular/ng-package-prod.json"
             }
 }
         },
